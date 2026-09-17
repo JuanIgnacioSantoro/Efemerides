@@ -1,5 +1,6 @@
 h1 {
     color: #f00;
+    font-size: 25pt;
 }
 
 div {
@@ -7,7 +8,6 @@ div {
     height: 69vh;
     text-align: center;
     margin-top: 30vh;
-    font-size: 10vh;
 }
 
 body {
