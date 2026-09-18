@@ -7,17 +7,17 @@
     }
   },
   "fechas_especificas": {
-    "2026-09-11": {
+    "09-11": {
       "mensaje": "¡Feliz día del maestro!👨‍🏫 👩‍🏫",
       "color": "#fff",
       "fondo": "#0ff"
     },
-    "2026-09-17": {
+    "09-17": {
       "mensaje": "¡Feliz día del profesor!👨‍🏫 👩‍🏫",
       "color": "#0ff",
       "fondo": "#fff"
     },
-    "2026-09-21": {
+    "09-21": {
       "mensaje": "¡Feliz día de la primavera 💐, el estudiante 📚 y la sanidad 🩺!",
       "color": "#0ff",
       "fondo": "#fff"

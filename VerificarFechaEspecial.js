@@ -12,6 +12,7 @@ async function verificarFechaEspecial() {
     const mes = String(hoy.getMonth() + 1).padStart(2, '0');
     const dia = String(hoy.getDate()).padStart(2, '0');
     const fechaFormateada = `${ano}-${mes}-${dia}`;
+    const fechaDiaMes = `${mes}-${dia}`;
 
     // 3. Calcular el día del año (para el día 256, etc.)
     const inicioDeAno = new Date(ano, 0, 0);
@@ -35,7 +36,7 @@ async function verificarFechaEspecial() {
       mensaje = datos.fechas_especificas[fechaFormateada];
     }
     */
-    const evento = datos.dias_del_ano[diaDelAno] || datos.fechas_especificas[fechaFormateada];
+    const evento = datos.dias_del_ano[diaDelAno] || datos.fechas_especificas[fechaDiaMes];
     
     // 8. Devolver o mostrar el resultado
     if (evento) {
