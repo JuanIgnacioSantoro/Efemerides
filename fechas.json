@@ -19,8 +19,8 @@
     },
     "09-21": {
       "mensaje": "¡Feliz día de la primavera 💐, el estudiante 📚, la sanidad 🩺, los fotógrafos 📸 y los artistas plásticos 🎨!",
-      "color": "#0ff",
-      "fondo": "#fff"
+      "color": "crimson",
+      "fondo": "antiquewhite"
     }
   }
 }
