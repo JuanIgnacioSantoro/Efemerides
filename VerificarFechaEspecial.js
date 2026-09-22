@@ -41,7 +41,7 @@ async function verificarFechaEspecial() {
 			);
 			return evento;
 		} else {
-			const NumeroDeDia = `Hoy es el día ${diaDelAno}.`;
+			const NumeroDeDia = `Hoy es el día ${diaDelAno} del año ${ano} (${dia}-${mes})`;
 			valor.textContent = NumeroDeDia;
 			console.log(NumeroDeDia);
 			return NumeroDeDia;
