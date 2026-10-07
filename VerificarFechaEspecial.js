@@ -11,6 +11,7 @@ async function verificarFechaEspecial() {
 		const ano = hoy.getFullYear();
 		const mes = String(hoy.getMonth() + 1).padStart(2, "0");
 		const dia = String(hoy.getDate()).padStart(2, "0");
+		const diaNombre = hoy.getDay();
 		const fechaFormateada = `${ano}-${mes}-${dia}`;
 		const fechaDiaMes = `${mes}-${dia}`;
 
@@ -40,7 +41,14 @@ async function verificarFechaEspecial() {
 				`color: ${evento.color}; font-weight: bold; font-size: 16px;`,
 			);
 			return evento;
-		} else {
+		} 
+		// 8. Calcular el 3º Domingo para el día de la madre
+		if (diaNombre == 0 && dia >= 15 && dia <= 21 && mes == "10"){
+			valor.textContent = "¡Feliz día de la madre! 👩‍👧";
+			valor.style.color = "white";
+			fondo.style.backgroundColor = "violet";
+		}
+		else {
 			const NumeroDeDia = `Hoy es el día ${diaDelAno} del año ${ano} (${dia}-${mes})`;
 			valor.textContent = NumeroDeDia;
 			console.log(NumeroDeDia);
