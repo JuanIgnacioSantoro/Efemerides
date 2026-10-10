@@ -41,8 +41,14 @@ async function verificarFechaEspecial() {
 				`color: ${evento.color}; font-weight: bold; font-size: 16px;`,
 			);
 			return evento;
+		}
+		// 8. Calcular el 3º Domingo para el día del padre
+		if (diaNombre == 0 && dia >= 15 && dia <= 21 && mes == "6"){
+			valor.textContent = "¡Feliz día del padre! 👨‍👩‍👧‍👦";
+			valor.style.color = "white";
+			fondo.style.backgroundColor = "violet";
 		} 
-		// 8. Calcular el 3º Domingo para el día de la madre
+		// 9. Calcular el 3º Domingo para el día de la madre
 		if (diaNombre == 0 && dia >= 15 && dia <= 21 && mes == "10"){
 			valor.textContent = "¡Feliz día de la madre! 👩‍👧";
 			valor.style.color = "white";

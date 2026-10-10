@@ -7,6 +7,11 @@
     }
   },
   "fechas_especificas": {
+      "07-26": {
+      "mensaje": "¡Feliz día de los abuelos 👴👵!",
+      "color": "crimson",
+      "fondo": "antiquewhite"
+    },
     "09-11": {
       "mensaje": "¡Feliz día del maestro!👨‍🏫 👩‍🏫",
       "color": "#fff",
