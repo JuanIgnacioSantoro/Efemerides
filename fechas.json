@@ -26,6 +26,16 @@
       "mensaje": "¡Feliz día de la primavera 💐, el estudiante 📚, la sanidad 🩺, los fotógrafos 📸 y los artistas plásticos 🎨!",
       "color": "crimson",
       "fondo": "antiquewhite"
+    },
+      "10-08": {
+      "mensaje": "¡Feliz día del profesor de educación física 🏋️‍♂️!",
+      "color": "crimson",
+      "fondo": "antiquewhite"
+    },
+      "10-10": {
+      "mensaje": "¡Día de la salud mental 🧠!",
+      "color": "crimson",
+      "fondo": "antiquewhite"
     }
   }
 }
