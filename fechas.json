@@ -51,7 +51,11 @@
       "mensaje": "¡Día mundial de la costurera 🪡!",
       "color": "crimson",
       "fondo": "antiquewhite"
+    },
+      "10-15": {
+      "mensaje": "¡Día Internacional de las Mujeres Rurales 🐎👩 y Lavado de Manos 🧼🤲!",
+      "color": "crimson",
+      "fondo": "antiquewhite"
     }
-
   }
 }
