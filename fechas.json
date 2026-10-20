@@ -56,6 +56,11 @@
       "mensaje": "¡Día internacional de las mujeres rurales 🐎👩 y lavado de manos 🧼🤲!",
       "color": "crimson",
       "fondo": "antiquewhite"
+    },
+      "10-20": {
+      "mensaje": "¡Día del pediatra 👶🩺!",
+      "color": "crimson",
+      "fondo": "antiquewhite"
     }
   }
 }
