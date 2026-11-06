@@ -61,6 +61,11 @@
       "mensaje": "¡Día del pediatra 👶🩺!",
       "color": "crimson",
       "fondo": "antiquewhite"
+    },
+      "11-07": {
+      "mensaje": "¡Día del canillita 🗞️ y del periodista deportivo 🎤⚽!",
+      "color": "crimson",
+      "fondo": "antiquewhite"
     }
   }
 }
